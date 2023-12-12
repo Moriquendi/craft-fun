@@ -7,19 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B51AF1FF2B284FCB0020DD3D /* ColorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF1FE2B284FCB0020DD3D /* ColorDetails.swift */; };
+		B51AF2012B284FEE0020DD3D /* StylingDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF2002B284FEE0020DD3D /* StylingDefinition.swift */; };
+		B51AF2032B28501E0020DD3D /* WorkspaceThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF2022B28501E0020DD3D /* WorkspaceThumbnail.swift */; };
+		B51AF2052B28503F0020DD3D /* RichColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF2042B28503F0020DD3D /* RichColorView.swift */; };
+		B51AF2072B2850870020DD3D /* FancyColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF2062B2850870020DD3D /* FancyColorPicker.swift */; };
+		B51AF2092B2850B00020DD3D /* Text+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF2082B2850B00020DD3D /* Text+Styling.swift */; };
+		B51AF20B2B2850BF0020DD3D /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF20A2B2850BF0020DD3D /* SectionHeader.swift */; };
+		B51AF20D2B2850E90020DD3D /* Color+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF20C2B2850E90020DD3D /* Color+Common.swift */; };
+		B51AF20F2B2851150020DD3D /* CraftSegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF20E2B2851150020DD3D /* CraftSegmentedPicker.swift */; };
+		B51AF2112B2851390020DD3D /* CraftButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF2102B2851390020DD3D /* CraftButtonStyle.swift */; };
+		B51AF2132B28515A0020DD3D /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF2122B28515A0020DD3D /* FontStyle.swift */; };
+		B51AF2152B2851760020DD3D /* View+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF2142B2851760020DD3D /* View+Utils.swift */; };
+		B51AF2172B2851C90020DD3D /* AttributesEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF2162B2851C90020DD3D /* AttributesEditor.swift */; };
+		B51AF21D2B28531C0020DD3D /* RichImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AF21C2B28531C0020DD3D /* RichImagePickerViewModel.swift */; };
 		B5BF1B312B2711BD0085C65A /* CraftPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BF1B302B2711BD0085C65A /* CraftPickerApp.swift */; };
 		B5BF1B332B2711BD0085C65A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BF1B322B2711BD0085C65A /* ContentView.swift */; };
 		B5BF1B352B2711BE0085C65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BF1B342B2711BE0085C65A /* Assets.xcassets */; };
 		B5BF1B392B2711BE0085C65A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BF1B382B2711BE0085C65A /* Preview Assets.xcassets */; };
+		B5BF1B402B274B850085C65A /* RichImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BF1B3F2B274B850085C65A /* RichImagePicker.swift */; };
+		B5BF1B442B274C670085C65A /* CraftMulti in Frameworks */ = {isa = PBXBuildFile; productRef = B5BF1B432B274C670085C65A /* CraftMulti */; };
+		B5BF1B462B274D0C0085C65A /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BF1B452B274D0C0085C65A /* CameraView.swift */; };
+		B5BF1B482B274D640085C65A /* ErrorAlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BF1B472B274D640085C65A /* ErrorAlertModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B51AF1FE2B284FCB0020DD3D /* ColorDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetails.swift; sourceTree = "<group>"; };
+		B51AF2002B284FEE0020DD3D /* StylingDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylingDefinition.swift; sourceTree = "<group>"; };
+		B51AF2022B28501E0020DD3D /* WorkspaceThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceThumbnail.swift; sourceTree = "<group>"; };
+		B51AF2042B28503F0020DD3D /* RichColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichColorView.swift; sourceTree = "<group>"; };
+		B51AF2062B2850870020DD3D /* FancyColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyColorPicker.swift; sourceTree = "<group>"; };
+		B51AF2082B2850B00020DD3D /* Text+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Styling.swift"; sourceTree = "<group>"; };
+		B51AF20A2B2850BF0020DD3D /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		B51AF20C2B2850E90020DD3D /* Color+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Common.swift"; sourceTree = "<group>"; };
+		B51AF20E2B2851150020DD3D /* CraftSegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftSegmentedPicker.swift; sourceTree = "<group>"; };
+		B51AF2102B2851390020DD3D /* CraftButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftButtonStyle.swift; sourceTree = "<group>"; };
+		B51AF2122B28515A0020DD3D /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		B51AF2142B2851760020DD3D /* View+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Utils.swift"; sourceTree = "<group>"; };
+		B51AF2162B2851C90020DD3D /* AttributesEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesEditor.swift; sourceTree = "<group>"; };
+		B51AF21C2B28531C0020DD3D /* RichImagePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichImagePickerViewModel.swift; sourceTree = "<group>"; };
 		B5BF1B2D2B2711BD0085C65A /* CraftPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraftPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BF1B302B2711BD0085C65A /* CraftPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftPickerApp.swift; sourceTree = "<group>"; };
 		B5BF1B322B2711BD0085C65A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5BF1B342B2711BE0085C65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5BF1B362B2711BE0085C65A /* CraftPicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CraftPicker.entitlements; sourceTree = "<group>"; };
 		B5BF1B382B2711BE0085C65A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5BF1B3F2B274B850085C65A /* RichImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichImagePicker.swift; sourceTree = "<group>"; };
+		B5BF1B412B274C530085C65A /* CraftMulti */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CraftMulti; path = Packages/CraftMulti; sourceTree = "<group>"; };
+		B5BF1B452B274D0C0085C65A /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B5BF1B472B274D640085C65A /* ErrorAlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +63,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5BF1B442B274C670085C65A /* CraftMulti in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B51AF1FD2B284FC50020DD3D /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF1FE2B284FCB0020DD3D /* ColorDetails.swift */,
+				B51AF2122B28515A0020DD3D /* FontStyle.swift */,
+				B51AF2002B284FEE0020DD3D /* StylingDefinition.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		B51AF2182B2852060020DD3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF21A2B2852400020DD3D /* Camera */,
+				B51AF21B2B2853120020DD3D /* RichImagePicker */,
+				B5BF1B322B2711BD0085C65A /* ContentView.swift */,
+				B51AF2162B2851C90020DD3D /* AttributesEditor.swift */,
+				B51AF20E2B2851150020DD3D /* CraftSegmentedPicker.swift */,
+				B51AF20A2B2850BF0020DD3D /* SectionHeader.swift */,
+				B51AF2062B2850870020DD3D /* FancyColorPicker.swift */,
+				B51AF2042B28503F0020DD3D /* RichColorView.swift */,
+				B51AF2022B28501E0020DD3D /* WorkspaceThumbnail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B51AF2192B2852230020DD3D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B5BF1B472B274D640085C65A /* ErrorAlertModifier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B51AF21A2B2852400020DD3D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				B5BF1B452B274D0C0085C65A /* CameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		B51AF21B2B2853120020DD3D /* RichImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B5BF1B3F2B274B850085C65A /* RichImagePicker.swift */,
+				B51AF21C2B28531C0020DD3D /* RichImagePickerViewModel.swift */,
+			);
+			path = RichImagePicker;
+			sourceTree = "<group>";
+		};
 		B5BF1B242B2711BD0085C65A = {
 			isa = PBXGroup;
 			children = (
+				B5BF1B412B274C530085C65A /* CraftMulti */,
 				B5BF1B2F2B2711BD0085C65A /* CraftPicker */,
 				B5BF1B2E2B2711BD0085C65A /* Products */,
+				B5BF1B422B274C670085C65A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +143,13 @@
 			isa = PBXGroup;
 			children = (
 				B5BF1B302B2711BD0085C65A /* CraftPickerApp.swift */,
-				B5BF1B322B2711BD0085C65A /* ContentView.swift */,
+				B51AF2142B2851760020DD3D /* View+Utils.swift */,
+				B51AF2102B2851390020DD3D /* CraftButtonStyle.swift */,
+				B51AF20C2B2850E90020DD3D /* Color+Common.swift */,
+				B51AF2192B2852230020DD3D /* Utils */,
+				B51AF2082B2850B00020DD3D /* Text+Styling.swift */,
+				B51AF2182B2852060020DD3D /* Views */,
+				B51AF1FD2B284FC50020DD3D /* Types */,
 				B5BF1B342B2711BE0085C65A /* Assets.xcassets */,
 				B5BF1B362B2711BE0085C65A /* CraftPicker.entitlements */,
 				B5BF1B372B2711BE0085C65A /* Preview Content */,
@@ -67,6 +163,13 @@
 				B5BF1B382B2711BE0085C65A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5BF1B422B274C670085C65A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +188,9 @@
 			dependencies = (
 			);
 			name = CraftPicker;
+			packageProductDependencies = (
+				B5BF1B432B274C670085C65A /* CraftMulti */,
+			);
 			productName = CraftPicker;
 			productReference = B5BF1B2D2B2711BD0085C65A /* CraftPicker.app */;
 			productType = "com.apple.product-type.application";
@@ -139,8 +245,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5BF1B402B274B850085C65A /* RichImagePicker.swift in Sources */,
+				B51AF2172B2851C90020DD3D /* AttributesEditor.swift in Sources */,
+				B51AF2152B2851760020DD3D /* View+Utils.swift in Sources */,
+				B51AF2092B2850B00020DD3D /* Text+Styling.swift in Sources */,
+				B51AF2132B28515A0020DD3D /* FontStyle.swift in Sources */,
 				B5BF1B332B2711BD0085C65A /* ContentView.swift in Sources */,
+				B51AF2052B28503F0020DD3D /* RichColorView.swift in Sources */,
+				B51AF2112B2851390020DD3D /* CraftButtonStyle.swift in Sources */,
+				B51AF20D2B2850E90020DD3D /* Color+Common.swift in Sources */,
+				B51AF21D2B28531C0020DD3D /* RichImagePickerViewModel.swift in Sources */,
 				B5BF1B312B2711BD0085C65A /* CraftPickerApp.swift in Sources */,
+				B51AF2012B284FEE0020DD3D /* StylingDefinition.swift in Sources */,
+				B5BF1B482B274D640085C65A /* ErrorAlertModifier.swift in Sources */,
+				B51AF1FF2B284FCB0020DD3D /* ColorDetails.swift in Sources */,
+				B51AF20B2B2850BF0020DD3D /* SectionHeader.swift in Sources */,
+				B51AF2072B2850870020DD3D /* FancyColorPicker.swift in Sources */,
+				B51AF20F2B2851150020DD3D /* CraftSegmentedPicker.swift in Sources */,
+				B51AF2032B28501E0020DD3D /* WorkspaceThumbnail.swift in Sources */,
+				B5BF1B462B274D0C0085C65A /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +397,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photo for your workspace";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -282,8 +406,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -312,6 +436,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photo for your workspace";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -320,8 +445,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -359,6 +484,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5BF1B432B274C670085C65A /* CraftMulti */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CraftMulti;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5BF1B252B2711BD0085C65A /* Project object */;
 }

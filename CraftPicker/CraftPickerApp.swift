@@ -12,6 +12,7 @@ struct CraftPickerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(idealWidth: 790)
         }
     }
 }
